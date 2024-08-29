@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+header{
+    margin: 50px 150px 50px 150px;
+}
+.pro{
+    font-size: 1.5rem ;
+}
+.nav-icon >ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+.nav-icon a{
+    text-decoration: none;
+    color: #3A3A3A;
+}
+nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.influ{
+    font-size: 3.25rem;
+    color: #3A3A3A;
+    margin-bottom: 0px;
+}
+.lorem{
+    color: #3A3A3A;
+}
+button{
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    border: 10px;
+    border-radius: 70px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+.start{
+    max-width: 580px;
+}
+.head{
+    background-image: url("../images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 475px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+.head img{
+    width: 440px;
+    height: 415px;
+}
+.old{
+    display: inline;
+}
+main{
+    max-width: 1100px;
+    margin: 100px auto;
+}
+.s1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:900px){
+    nav
+      {
+        flex-direction: column;
+        text-align: center;
+    }   
+      header{
+        margin: 0px;     
+    }
+    .nav-icon >ul{
+        gap: 20px;
+    }
+
+    .head{
+        flex-direction: column-reverse;
+        background-position: top;
+        margin-top: 20px;
+        background-size: 275px;
+
+    }
+    .head img{
+        width: 205px;
+        height: 190px ;
+        padding-top: 58px;
+    }
+    .start{
+        max-width: 405px;
+        text-align: center;
+        padding-left: 10px;
+    }
+    .influ{
+        font-size: 1.75rem;
+    }
+    .s1{
+        grid-template-columns: repeat(4,50px); 
+        margin-left: 20px;
+        margin-right: 20px;
+        grid-gap: 60px;
+    }
+    #rak{
+       padding-left: 40px;
+    }
+    #wal{
+        padding-left: 60px;
+    }
+    #tar{
+        padding-left: 90px;
+    }
+    hr{
+        display: none;
+    }
+
+}
+@media screen and (min-width:900px) and (max-width:1130px){
+    nav
+      {
+        flex-direction: column;
+        text-align: center;
+    }
+    header{
+        margin: 40px; 
+    }
+    .start{
+        text-align: center;
+    }
+
+
+}
