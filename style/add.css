@@ -79,9 +79,8 @@ main{
 
 
 
-@media screen and (max-width:900px){
-    nav
-      {
+@media screen and (max-width:577px){
+    nav{
         flex-direction: column;
         text-align: center;
     }   
@@ -112,11 +111,14 @@ main{
     .influ{
         font-size: 1.75rem;
     }
+    .s1 >img{
+        width: 55px;
+    }
     .s1{
         grid-template-columns: repeat(4,50px); 
-        margin-left: 20px;
-        margin-right: 20px;
-        grid-gap: 60px;
+        margin-left: 50px; 
+        margin-right: 50px;
+        grid-gap: 50px;
     }
     #rak{
        padding-left: 40px;
@@ -125,14 +127,14 @@ main{
         padding-left: 60px;
     }
     #tar{
-        padding-left: 90px;
+        padding-left: 70px;
     }
     hr{
         display: none;
     }
+} 
 
-}
-@media screen and (min-width:900px) and (max-width:1130px){
+@media screen and (min-width:577px) and (max-width:992px){ 
     nav
       {
         flex-direction: column;
@@ -144,6 +146,40 @@ main{
     .start{
         text-align: center;
     }
+    .influ{
+        font-size: 3rem;
+    }
+    .head{
+        flex-direction: column-reverse;
+        background-position: top;
+        margin-top: 20px;
+        background-size: 275px;
 
-
+    }
+    .head img{
+        width: 205px;
+        height: 190px ;
+        padding-top: 58px;
+    }
+    .s1 >img{
+        width: 70px;
+    }
+    .s1{
+        grid-template-columns: repeat(4,60px); 
+        margin-left: 100px; 
+        margin-right: 100px;
+        grid-gap: 50px;
+    }
+    #rak{
+        padding-left: 40px;
+     }
+     #wal{
+         padding-left: 60px;
+     }
+     #tar{
+         padding-left: 70px;
+     }
+    hr{
+        display: none;
+    }
 }
